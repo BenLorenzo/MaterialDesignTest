@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_toolbar"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="Toolbar" />
+        <item
+            android:id="@+id/nav_fab"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="Floating Action Button" />
+        <item
+            android:id="@+id/nav_snakbar"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="Snackbar" />
+        <item
+            android:id="@+id/nav_tablayout"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="TabLayout" />
+        <item
+            android:id="@+id/nav_coordinatelayout"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="CoordinateLayout" />
+        <item
+            android:id="@+id/nav_collapsingtablayout"
+            android:icon="@drawable/ic_forum_indigo_900_18dp"
+            android:title="CollapsingTabLayout" />
+    </group>
+
+    <item android:title="Developer">
+        <menu>
+            <item
+                android:id="@+id/nav_sub_aboutme"
+                android:icon="@drawable/ic_account_child_indigo_900_18dp"
+                android:title="About me :)" />
+            <item
+                android:id="@+id/nav_sub_contact"
+                android:icon="@drawable/ic_quick_contacts_dialer_indigo_900_18dp"
+                android:title="Contact Info" />
+        </menu>
+    </item>
+
+</menu>
